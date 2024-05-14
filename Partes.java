@@ -1,5 +1,5 @@
 public interface Partes {
     void capacidad();
-    void carroceria();
-    void artilujios();
+    void marca();
+    void Costo();
 }

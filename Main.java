@@ -6,7 +6,11 @@ public class Main {
         System.out.println("Modelo del automóvil: " + automovil.getModelo());
         automovil.cargarBateria(); 
         automovil.llenarTanque(); 
-        automovil.arrancar(); 
+        automovil.arrancar();
+        automovil.chipCapacidad();
+        automovil.camaraCapacidad();
+        automovil.gpsCapacidad();
+ 
 
 	System.out.println();
 
@@ -24,7 +28,10 @@ public class Main {
         System.out.println("Modelo de la moto: " + moto.getModelo());
         moto.cargarBateria(); 
         moto.llenarTanque(); 
-        moto.arrancar(); 
+        moto.arrancar();
+        moto.chipCapacidad();
+        moto.camaraCapacidad();
+        moto.gpsCapacidad(); 
 
         System.out.println();
 
@@ -33,6 +40,10 @@ public class Main {
         System.out.println("Marca del avión: " + avion.getMarca());
         System.out.println("Modelo del avión: " + avion.getModelo());
         avion.cargarCombustible(); 
+        avion.chipCapacidad();
+        avion.camaraCapacidad();
+        avion.gpsCapacidad();
+ 
 
         System.out.println();
 
@@ -40,5 +51,9 @@ public class Main {
         System.out.println("Marca del barco: " + barco.getMarca());
         System.out.println("Modelo del barco: " + barco.getModelo());
         barco.cargarCombustible(); 
+        barco.chipCapacidad();
+        barco.camaraCapacidad();
+        barco.gpsCapacidad();
+
     }
 }

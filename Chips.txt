@@ -1,0 +1,36 @@
+public class Camara Chips Partes {
+    private String marca;
+    private String modelo;
+   
+    public Camara(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void capacidad() {
+        System.out.println("La Capacidad Del Chip Es De 256 KB");
+    }
+    public void marca() {
+        System.out.println("Los chips son analogos");
+    }
+    public void Costo() {
+        System.out.println("Vale 500 mil pesos");
+    }
+
+}
